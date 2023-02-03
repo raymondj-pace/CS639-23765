@@ -1,3 +1,8 @@
+/**
+ * Ray Jennings, CS639, Spring 2023
+ */
+
+
 package com.example.firstapp;
 
 import android.os.Bundle;
@@ -10,13 +15,9 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
-//import androidx.navigation.fragment.NavHostFragment;
 
-//import com.example.firstapp.databinding.FragmentFirstBinding;
 
 public class FirstFragment extends Fragment {
-
-    //private FragmentFirstBinding binding;
 
     TextView showCountTextView;
 

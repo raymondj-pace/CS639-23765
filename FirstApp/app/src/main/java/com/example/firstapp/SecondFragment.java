@@ -1,3 +1,7 @@
+/**
+ * Ray Jennings, CS639, Spring 2023
+ */
+
 package com.example.firstapp;
 
 import android.os.Bundle;
@@ -11,8 +15,6 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.firstapp.databinding.FragmentSecondBinding;
-//import androidx.navigation.fragment.navArgs;
-
 import java.util.Random;
 
 public class SecondFragment extends Fragment {
