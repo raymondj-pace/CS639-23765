@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">First App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Ray\'s app first page</string>
+    <string name="second_fragment_label">Ray\'s app second page</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">0</string>
+    <string name="random_heading">Here is a random number between 0 and %d.</string>
+
+    <string name="button_toast">Toast</string>
+    <string name="button_count">Count</string>
+    <string name="button_random">Random</string>
+
+</resources>
