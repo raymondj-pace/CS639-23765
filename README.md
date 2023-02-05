@@ -1,3 +1,3 @@
 # CS639-23765
 
-### FirstApp - Assignment #1
+### Assignment #1: FirstApp
