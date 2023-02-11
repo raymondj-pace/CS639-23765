@@ -1,5 +1,7 @@
 # FirstApp
 
+### apk file is under the APK FILE HERE directory
+
 ## SDKs Installed
 ![Android SDKs Installed](https://user-images.githubusercontent.com/94663542/216502535-5260c577-005a-4458-b893-d50dc7d1e40d.png)
 
