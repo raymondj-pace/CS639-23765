@@ -1,7 +1,6 @@
 package com.example.asynctest;
 
 import android.app.Activity;
-import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
@@ -14,7 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class AsyncTaskImgDownloader extends AsyncTask<String, Integer, Bitmap> {
-    private Activity myActivity;
+    private final Activity myActivity;
 
     // Constructor
     public AsyncTaskImgDownloader(Activity activity) {
@@ -55,14 +54,11 @@ public class AsyncTaskImgDownloader extends AsyncTask<String, Integer, Bitmap> {
         String s = "";
 
         if (values[0] == 0) {
-            //s = getApplicatoinContext().getResources.getSystem().getString(R.string.image_loading);
-            s = "Loading random image...";
-            tv.setText(s);
+            s = myActivity.getString(R.string.image_loading);
         } else {
-            //s = Resources.getSystem().getString(R.string.image_loaded);
-            s = "Random Image:";
-            tv.setText(s);
+            s = myActivity.getString(R.string.image_loaded);
         }
+        tv.setText(s);
     }
 
     @Override

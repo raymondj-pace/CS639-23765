@@ -2,10 +2,13 @@ package com.example.asynctest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.res.Resources;
 import android.os.Bundle;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    private static Resources res;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,5 +22,9 @@ public class MainActivity extends AppCompatActivity {
         imgDownLoader.execute("https://picsum.photos/" + img_size);
 
         // https://picksum.photos/200 add /300 for height or .jpg
+    }
+
+    public static Resources getRes() {
+        return res;
     }
 }
