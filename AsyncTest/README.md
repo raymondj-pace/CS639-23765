@@ -36,15 +36,19 @@ Create the file network_security_config.xml under the res/xml subdirectory as:
 ## NOTE:
 Be sure to pass a reference of the MainActivity app to the AsyncTaskImgDownloader via a constructor method otherwise you will not be able to use: `getString(R.string.<your string id>)`
 
+## TODO:
+Try to get the screen to not completely redraw.
+
 <br/>
 <br/>
 
 App was tested on a Huawei Nexus 6P, Android 8.1 (API 27 - Oreo)
-![Screenshot 2023-02-25 at 1 47 54 PM](https://user-images.githubusercontent.com/94663542/221374937-cdc16385-e793-41dc-a013-a743f2d68f55.png)
 
+![AsyncImageVirtual](https://user-images.githubusercontent.com/94663542/221378965-bbea7bb3-e40e-4217-8eb8-edfbadd5c71e.png)
 
-![RandomImage](https://user-images.githubusercontent.com/94663542/221375154-8c545ac9-8fc1-4cb5-ab0e-d94530a18273.jpg)
+![ImageAsyncReload](https://user-images.githubusercontent.com/94663542/221378955-db719a63-2a40-455a-8b3d-36da97d2fc85.jpg)
 
+https://user-images.githubusercontent.com/94663542/221379048-1c6f46e3-276e-4acc-9042-71b1c92231ce.mp4
 
 
 
