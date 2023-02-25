@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Async Image Test</string>
+    <string name="image_loading">"Loading random image..."</string>
+    <string name="image_loaded">"Random Image:"</string>
+    <string name="an_image">An image</string>
+    <string name="random_image_to_load">"Random image to load"</string>
+    <string name="image_size">"800"</string>
+</resources>
