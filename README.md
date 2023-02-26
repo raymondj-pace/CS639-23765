@@ -12,4 +12,4 @@
 
 6. ### Assignment: Random Async Image Loader https://github.com/raymondj-pace/CS639-23765/tree/main/AsyncTest (Tested on Nexus 6P)
 
-7. ### Assignment: Simple Async Task (with progress indicator): https://github.com/raymondj-pace/CS639-23765/tree/main/SimpleAsyncTask
+7. ### Assignment: Simple Async Task (with progress indicator): https://github.com/raymondj-pace/CS639-23765/tree/main/SimpleAsyncTask (Tested on Nexus 6P)
