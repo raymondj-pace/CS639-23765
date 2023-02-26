@@ -1,6 +1,6 @@
 # CS639-23765
 
-1. ### Assignment #1: FirstApp https://github.com/raymondj-pace/CS639-23765/tree/main/FirstApp (Tested on Galaxy S6)
+1. ### Assignment: FirstApp https://github.com/raymondj-pace/CS639-23765/tree/main/FirstApp (Tested on Galaxy S6)
 
 2. ### Week02 Git Test: https://github.com/raymondj-pace/CS639-23765/tree/main/Week02-Git
 
@@ -10,4 +10,4 @@
 
 5. ### Assignment: Sample Image app using Android 8.1: https://github.com/raymondj-pace/CS639-23765/tree/main/ImageApp (Tested on Nexus 6P)
 
-6. ### Random Async Image Loader: https://github.com/raymondj-pace/CS639-23765/tree/main/AsyncTest (Tested on Nexus 6P)
+6. ### Assignment: Random Async Image Loader https://github.com/raymondj-pace/CS639-23765/tree/main/AsyncTest (Tested on Nexus 6P)
