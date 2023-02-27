@@ -16,6 +16,6 @@
 
 8. ### Assignment: Simple Async Task (with progress indicator): https://github.com/raymondj-pace/CS639-23765/tree/main/SimpleAsyncTask (Tested on Nexus 6P)
 
-9. ### Assignment: Who Wrote It: https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteIt
+9. ### Assignment: Who Wrote It: https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteIt (Tested on Nexus 6P)
 
-10. ### Assignment: Who Wrote It Loader: https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteItLoader
+10. ### Assignment: Who Wrote It Loader: https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteItLoader (Tested on Nexus 6P)
