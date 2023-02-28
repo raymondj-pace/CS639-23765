@@ -1,0 +1,238 @@
+[
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxxhdpi_toast.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxxhdpi/toast.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-ldpi_toast_foreground.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-ldpi/toast_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-hdpi_toast_round.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-hdpi/toast_round.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxxhdpi_toast_round.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxxhdpi/toast_round.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-mdpi_toast.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-mdpi/toast.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-mdpi_toast_round.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-mdpi/toast_round.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-xxxhdpi_toast_foreground.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-xxxhdpi/toast_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xhdpi_toast_round.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xhdpi/toast_round.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-xhdpi_toast_foreground.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-xhdpi/toast_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-ldpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-ldpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxhdpi_toast.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxhdpi/toast.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxhdpi_toast_round.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxhdpi/toast_round.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/layout-land_activity_main.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/layout-land/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-xxhdpi_toast_foreground.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-xxhdpi/toast_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-hdpi_toast.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-hdpi/toast.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v26_toast.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-anydpi-v26/toast.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable_toast_background.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/drawable/toast_background.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xhdpi_toast.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xhdpi/toast.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-mdpi_toast_foreground.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-mdpi/toast_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/xml_backup_rules.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-anydpi-v24_toast_foreground.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-anydpi-v24/toast_foreground.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-anydpi-v26_toast_round.xml.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-anydpi-v26/toast_round.xml"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/drawable-hdpi_toast_foreground.png.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-pngs-24:/drawable-hdpi/toast_foreground.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.hellotoast.app-pngs-24:/drawable-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/ray/.gradle/daemon/7.5/com.example.hellotoast.app-main-31:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.hellotoast.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.hellotoast.app-merged_res-29:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.hellotoast.app-main-31:/mipmap-mdpi/ic_launcher.png"
+    }
+]
