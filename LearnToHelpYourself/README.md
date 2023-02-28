@@ -1,4 +1,4 @@
-### Change the icon for the Hello Test App
+# Change the icon for the Hello Test App
 Original "Hello Toast" code is here: https://github.com/raymondj-pace/CS639-23765/tree/main/HelloToast
 
 <br>
