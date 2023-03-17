@@ -21,6 +21,8 @@ A webView was first attempted which seemed very promising in that I could use fa
 
 6. Duplicate names are not checked for and nor are special characters. For example, I allow the use of something like "Raymond3" if such a nickname is desired to be saved.
 
+7. <b>Problem:</b> I am unable to hide the keyboard when the app first starts. The EditText's have focus but I still try to hide the keyboard unsuccessfully at app start. The keyboard is successfully hidden when a new employee is added.
+
 <br>
 
 
