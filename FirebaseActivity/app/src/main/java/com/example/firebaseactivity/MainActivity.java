@@ -6,6 +6,7 @@ import android.text.InputType;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
@@ -49,15 +50,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
 
-        // Hide keyboard if it's showing on creation
+        // Hide keyboard if it's showing after creation
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         if (imm.isActive()) {
             imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
         }
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
 
         mFirstName = findViewById(R.id.editTextFirstName);
         mLastName = findViewById(R.id.editTextLastName);
@@ -65,6 +71,8 @@ public class MainActivity extends AppCompatActivity {
 
         mFirstName.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_WORDS);
         mLastName.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_FLAG_CAP_WORDS);
+
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         /// Get an instance of the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
@@ -96,8 +104,13 @@ public class MainActivity extends AppCompatActivity {
                     c = c + 1;
                 }
 
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(MainActivity.this, R.layout.activity_listview, R.id.textView, employeeNames); //(this, R.layout.activity_listview, R.id.textView, employeeNames);
+                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(MainActivity.this, R.layout.activity_listview, R.id.textView, employeeNames);
                 simpleList.setAdapter(arrayAdapter);
+
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                if (imm.isActive()) {
+                    imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+                }
             }
 
             @Override
@@ -106,6 +119,11 @@ public class MainActivity extends AppCompatActivity {
                 Log.w(TAG, "Failed to read value.", error.toException());
             }
         });
+
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (imm.isActive()) {
+            imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+        }
     }
 
     public void addEmployee(View view) {
@@ -129,10 +147,6 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-        if (imm.isActive())
-            imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
-
         // Clear the previous inputs
         mFirstName.setText("");
         mLastName.setText("");
@@ -141,12 +155,18 @@ public class MainActivity extends AppCompatActivity {
         mFirstName.setHint("Enter first name");
         mLastName.setHint("Enter last name");
 
-        // Return focus back to first name edit text
-        mFirstName.requestFocus();
-        Employee emp = new Employee(lastName, firstName);
-
         // Get a reference to where new entry will go - this avoids having to guess the offset
         DatabaseReference newPostRef  = myRef.push();
+        Employee emp = new Employee(lastName, firstName);
         newPostRef.setValue(emp);
+
+        // Return focus back to first name edit text
+        mFirstName.requestFocus();
+
+        // Hide keyboard
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (imm.isActive()) {
+            imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+        }
     }
 }

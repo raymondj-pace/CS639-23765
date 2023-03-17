@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context="com.example.firebaseactivity.MainActivity">
-
-    <RelativeLayout
-        android:id="@+id/relativeLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.firebaseactivity.MainActivity">
 
         <TextView
             android:id="@+id/textView"
@@ -31,7 +25,7 @@ tools:context="com.example.firebaseactivity.MainActivity">
             android:layout_height="wrap_content"
             android:layout_below="@+id/textView"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="11dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="16dp"
             android:autofillHints="First name"
             android:ems="10"
@@ -47,7 +41,7 @@ tools:context="com.example.firebaseactivity.MainActivity">
             android:layout_height="wrap_content"
             android:layout_below="@+id/editTextFirstName"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="16dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:autofillHints="Last name"
             android:ems="10"
@@ -81,5 +75,3 @@ tools:context="com.example.firebaseactivity.MainActivity">
             android:dividerHeight="1dp" />
 
     </RelativeLayout>
-
-</RelativeLayout>
