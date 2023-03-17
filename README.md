@@ -32,3 +32,7 @@ https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteIt (Tested on Nex
 
 11. ### Who Wrote It Loader
 https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteItLoader (Tested on Nexus 6P)
+
+12. ### Firebase Activity
+https://github.com/raymondj-pace/CS639-23765/blob/main/FirebaseActivity/README.md
+
