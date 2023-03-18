@@ -36,3 +36,6 @@ https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteItLoader (Tested 
 12. ### Firebase Activity
 https://github.com/raymondj-pace/CS639-23765/blob/main/FirebaseActivity/README.md (Tested on Nexus 6P)
 
+13. ### Recycler View
+https://github.com/raymondj-pace/CS639-23765/tree/main/RecyclerView (Tested on Nexus 6P)
+
