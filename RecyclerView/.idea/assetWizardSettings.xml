@@ -25,7 +25,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="/private/var/folders/p4/h3z_wxf13fdf_hhtbl46zwfh0000gn/T/baseline_add_24.xml" />
-                                                <entry key="opacityPercent" value="60" />
+                                                <entry key="opacityPercent" value="80" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -68,7 +68,8 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_add_for_fab2" />
+                                      <entry key="outputName" value="ic_add_for_fab" />
+                                      <entry key="theme" value="HOLO_DARK" />
                                     </map>
                                   </option>
                                 </PersistentState>
