@@ -55,26 +55,32 @@ public class MainActivity extends AppCompatActivity {
     public void showDollarAmount(View view) {
         // Get the search string from the input field.
 
-        // Hide keyboard if it's showing after creation
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
         if (imm.isActive()) {
-            imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+            imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
         }
 
 
         String euros_string = mEuroAmount.getText().toString();
         if (euros_string.isEmpty()) {
 
-            if (imm.isActive()) {
-                imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
-            }
+            mDollarAmount.setText("");
 
             Toast toast = Toast.makeText(this, "Enter Euro decimal amount", Toast.LENGTH_SHORT);
             toast.show();
 
             return;
         }
+
+        // Hide keyboard if it's showing after creation
+        /*
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
+        if (imm.isActive()) {
+            imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+        }
+        */
 
         double euros = Double.parseDouble(mEuroAmount.getText().toString());
 
