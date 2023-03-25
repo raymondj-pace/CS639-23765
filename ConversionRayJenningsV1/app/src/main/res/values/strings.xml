@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Euro Conversion App</string>
+    <string name="convert">Convert</string>
+    <string name="amount_of_euros">Amount of Euros: </string>
+    <string name="byRay">by Ray Jennings</string>
+    <string name="convert_string">Convert Euros to Dollars</string>
+</resources>
