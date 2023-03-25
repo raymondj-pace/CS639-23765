@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         if (imm.isActive()) {
             imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
-        //this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         String euros_string = mEuroAmount.getText().toString();
         if (euros_string.isEmpty()) {
