@@ -33,10 +33,15 @@ public class MainActivity extends AppCompatActivity {
         super.onPostCreate(savedInstanceState);
 
         // Hide keyboard if it's showing after creation
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+/*
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+
         if (imm.isActive()) {
             imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
         }
+ */
+
     }
 
 
@@ -56,11 +61,10 @@ public class MainActivity extends AppCompatActivity {
         // Get the search string from the input field.
 
         InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-
         if (imm.isActive()) {
-            imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
-
+        //this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         String euros_string = mEuroAmount.getText().toString();
         if (euros_string.isEmpty()) {
@@ -73,14 +77,12 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        // Hide keyboard if it's showing after creation
-        /*
-        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
 
+        // Hide keyboard if it's showing after creation
+        imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         if (imm.isActive()) {
-            imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
-        */
 
         double euros = Double.parseDouble(mEuroAmount.getText().toString());
 
@@ -98,9 +100,11 @@ public class MainActivity extends AppCompatActivity {
 
         // mEuroAmount.requestFocus();
 
+        //this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
+
         imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
         if (imm.isActive()) {
-            imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
     }
 }
