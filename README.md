@@ -33,7 +33,7 @@ https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteIt (Tested on Nex
 11. ### Who Wrote It Loader
 https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteItLoader (Tested on Nexus 6P)
 
-12. ### Friendly Chat Android (Kotlin)
+12. ### Friendly Chat Android
 https://github.com/raymondj-pace/CS639-23765/tree/main/friendlychat-android
 
 13. ### Firebase Activity Employee
