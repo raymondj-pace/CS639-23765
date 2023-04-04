@@ -36,7 +36,7 @@ https://github.com/raymondj-pace/CS639-23765/tree/main/WhoWroteItLoader (Tested 
 12. ### Friendly Chat Android (Kotlin)
 https://github.com/raymondj-pace/CS639-23765/tree/main/friendlychat-android
 
-13. ### Firebase Activity
+13. ### Firebase Activity Employee
 https://github.com/raymondj-pace/CS639-23765/tree/main/FirebaseActivity (Tested on Nexus 6P)
 
 14. ### Recycler View
