@@ -42,3 +42,8 @@ https://github.com/raymondj-pace/CS639-23765/tree/main/FirebaseActivity (Tested 
 14. ### Recycler View
 https://github.com/raymondj-pace/CS639-23765/tree/main/RecyclerView (Tested on Nexus 6P)
 
+15. ### Greeting Card (Jetpack Compose)
+https://github.com/raymondj-pace/CS639-23765/tree/main/GreetingCard (Tested on Nexus 6P)
+
+16. ### Business Card (Jetpack Compose)
+https://github.com/raymondj-pace/CS639-23765/tree/main/BusinessCard (Tested on Nexus 6P)
