@@ -50,3 +50,6 @@ https://github.com/raymondj-pace/CS639-23765/tree/main/GreetingCard (Tested on N
 
 17. ### Business Card (Jetpack Compose)
 https://github.com/raymondj-pace/CS639-23765/tree/main/BusinessCard (Tested on Nexus 6P)
+
+18. ### Kotlin Basics Codelab
+https://github.com/raymondj-pace/CS639-23765/tree/main/BasicsCodelab
